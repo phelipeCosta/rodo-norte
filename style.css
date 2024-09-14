@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+h1 {
+
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 52px;
+    margin-left: -23%;
+}
+
+.nome-empresa {
+    position: absolute;
+    top: 24%;
+    left: 52%;
+}
+
+button {
+    position: fixed;
+    margin-top: 24%;
+    margin-left: 52%;
+    width: 246px;
+    height: 50px;
+    font-size: 23px;
+    color: azure;
+    border-radius: 21px;
+    background-color:black;
+    border: none;
+    cursor: pointer;
+
+}
+
+.div-paragrafo {
+    position: absolute;
+    width: 880px;
+    top: 75%;
+    left: 32%;
+    font-size: 32px;
+}
+
+.soldador {
+    width: 650px;
+    margin-top: 10px;
+}
+
+.img2 {
+    width: 80px;
+    position: fixed;
+    top: 85%;
+    left: 90%;
+}
+
+.reader {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.reader img {
+    width: 60px;
+}
+
+.reader a {
+    color: rgb(10, 10, 10);
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
+.reader a:hover {
+    color: rgb(163, 13, 13);
+    font-size: 27px;
+    transition: 0.5s ease-in-out;
+}
