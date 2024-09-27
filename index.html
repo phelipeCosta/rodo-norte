@@ -14,7 +14,7 @@
         <h2> oficina e borracharia </h2>
     </div>
 
-    <button> entre em contato </button>
+    <button class="botao-contato" onclick= " mostrarformulario() "> entre em contato </button>
 
     <div class="div-paragrafo">
         <p> Na Rodo norte voçê pode contar com serviços de borracharia, prença de mangueiras hidraulicas
@@ -33,6 +33,15 @@
     <img class="soldador" src="./img/soldador.jpg" alt="soldador">
     <img class="img2" src=" ./img/whatsapp.png " alt=" imagem-whatsapp ">
 
+    <form class="formulario-fale-conosco">
+        <input placeholder=" seu nome " type="text" name="nome">
+        <input  placeholder=" seu telefone " type="tel" name="telefone">
+        <textarea placeholder=" digite seu problema aqui " name=" sua duvida "></textarea>
+        <button> pedir orçamento </button>
+    </form>
+    <div onclick= " esconderformulario() " class="mascara-formulario"></div>
+
+    <script src="scriptis.js"></script>
 </body>
 
 </html>
